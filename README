@@ -1,0 +1,12 @@
+Ce projet a été effectué lors de ma troisième année en filière "Data Science et Sciences Sociales" à l'ENSAE Paris. Il s'agissait de mon rendu pour la matière "Machine Learning for Natural Language Processing". 
+
+Dans le cadre du projet Scorface, archivistes, démographes et informaticiens se sont rassemblés pour traiter ces données à grande échelle. 
+L’objectif était de rassembler les données de recensements de 1836 à 1936, entre autre en les traitant par reconnaissance automatique de l’écriture des listes manuscrites associées à ces recensements. 
+Le problème est que les nomenclatures sont variables. Par conséquent, le sexe n'est pas retranscrit pour chaque recensement. Pourtant, cette donnée peut être essentielle dans l'analyse des ménages. 
+
+L'objectif de ce projet était donc de créer un modèle de prédiction du sexe des personnes à partir des données disponibles sur le recensement. 
+Pour cela, nous avions accès à 241 personnes recensées, et à cela s'ajoutait une base répertoriant combien de personnes par sexe avaient porté un prénom. 
+
+J'ai donc proposé un modèle de régression logistique à partir de la structure textuelle des prénoms pour prédire le sexe. Le code est disponible sur le fichier code.ipynb.
+Le rapport de ce rendu est également disponible sur le fichie Rapport_NLP.pdf 
+
